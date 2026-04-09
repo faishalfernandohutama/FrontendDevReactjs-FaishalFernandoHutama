@@ -17,4 +17,4 @@
 
 ## 🔗 Links
 - **GitHub Repository**: [https://github.com/faishalfernandohutama/FrontendDevReactjs-FaishalFernandoHutama.git]
-- **Live Deployment (Netlify)**: [Link Netlify Anda di sini]
+- **Live Deployment (Netlify)**: [https://frontenddevreactjs-faishalfernandohut.netlify.app/]
