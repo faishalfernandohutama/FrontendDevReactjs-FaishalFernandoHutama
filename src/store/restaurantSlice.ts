@@ -1,10 +1,11 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
+import type { Restaurant } from "../types"; // TAMBAHKAN INI
 
 export const fetchRestaurants = createAsyncThunk(
     'restaurants/fetchRestaurants',
     async (categoryFilter: string) => {
-        let url = import.meta.env.API_URL;
+        let url = import.meta.env.VITE_API_URL;
         if (categoryFilter) {
             url += `?categories=${categoryFilter}`;
         }
